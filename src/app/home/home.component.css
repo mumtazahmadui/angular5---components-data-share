@@ -1,0 +1,17 @@
+.myTable {
+	display: table;
+	width: 100%;
+	position: relative;
+}
+
+app-left {
+	display: table-cell;
+	width: 50%;
+	background-color: #F6F6F6;
+}
+
+app-right {
+	display: table-cell;
+	width: 50%;
+	background-color: #EEE;
+}

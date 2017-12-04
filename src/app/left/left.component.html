@@ -1,0 +1,6 @@
+<div>
+	<div><input type="text" [(ngModel)]="query" /></div>
+	<div *ngFor="let session of sessions | userFilter:'id,name':query" class="group" (click)="showSessionDetail(session)">
+		<i class="fa fa-square-o" aria-hidden="true">&nbsp;{{session.name}}</i>
+	</div>
+</div>

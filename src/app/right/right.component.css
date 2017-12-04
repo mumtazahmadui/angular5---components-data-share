@@ -1,0 +1,10 @@
+.addNew {
+	text-align: right;
+	height: 27px;
+    line-height: 27px;
+    padding-right: 9px
+}
+
+.addNew i {
+	cursor: pointer;
+}

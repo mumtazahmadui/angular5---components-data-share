@@ -1,0 +1,13 @@
+app-top {
+	display: inline-block;
+	width: 100%;
+	height: 45px;
+	background-color: #DDD;
+}
+
+app-bottom {
+	display: inline-block;
+	width: 100%;
+	height: 45px;
+	background-color: #DDD;
+}
